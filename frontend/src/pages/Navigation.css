@@ -1,0 +1,70 @@
+
+.navigation-info {
+    display: flex;
+    flex-direction: row;
+    padding: 0 3rem;
+}
+  
+.navigation-info > div {
+    color: #000000;
+    font-size: 3rem;
+    font-family: 'Readex_Pro-Regular', Helvetica;
+} 
+
+.navigation-buttons {
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 2rem);
+    justify-content: center;
+    margin: 1rem;
+}
+
+.navigation-buttons > button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 28rem;
+    padding: 2rem;
+    margin: 2rem;
+    color: #ffffff;
+    font-size: 2rem;
+    box-shadow: 1rem 0rem 2rem #ffffff40 inset, 1rem 2rem 4rem #00000040;
+}
+
+.navigation-buttons > button:hover {
+    transform: scale(0.95);
+}
+
+.navigation-button1 {
+    background-color: #83cbff;
+}
+
+.navigation-button2 {
+    background-color: #5a59e3;
+}
+
+.navigation-button3 {
+    background-color: #ff78b5;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .navigation-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation-buttons > button {
+        height: 10rem;
+        width: 25rem;
+        padding: 0rem 2rem;
+        margin: 2rem;
+    }
+}
+
+
+
+

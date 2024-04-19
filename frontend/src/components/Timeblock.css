@@ -1,0 +1,11 @@
+.timeblock {
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+    margin: 0rem;
+}
+
+.delete {
+    /* background-color: #D30000; */
+    color: white;
+}

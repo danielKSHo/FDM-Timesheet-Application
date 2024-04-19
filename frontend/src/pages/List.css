@@ -1,0 +1,139 @@
+.list-info {
+  display: flex;
+  flex-direction: row;
+  padding: 0 3rem;
+}
+
+.list-info>div {
+  color: #000000;
+  font-size: 3rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+}
+
+.list-listcontainer {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 10rem);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 5rem;
+}
+
+.list-listgroup {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 0.75rem;
+  background-color: #7A79F0;
+  overflow-y: scroll;
+  min-width: 32rem;
+  max-height: 40rem;
+  box-shadow: 1rem 0rem 2rem #ffffff40 inset, 1rem 2rem 4rem #00000040;
+  /* border-width: 0.25rem; */
+  border-color: #000000;
+}
+
+.list-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #65ADED;
+  gap: 1rem;
+  min-width: 35rem;
+  padding: 1rem 2rem;
+  /* border-width: 0.25rem; */
+  border-color: #000000;
+  box-shadow: 1rem 0rem 2rem #ffffff40 inset, 1rem 2rem 4rem #00000040;
+}
+
+.list-search-input {
+  position: relative;
+  width: 22rem;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.list-listitem {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  flex-direction: row;
+  gap: 5rem;
+  border-width: 0.5rem;
+  border-bottom-width: 0.25rem;
+  box-shadow: 1rem 0rem 2rem #ffffff40 inset, 1rem 2rem 4rem #00000040;
+}
+
+.list-node {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.list-listitem>div {
+  font-size: 1.25rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+  padding: 1rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  justify-content: center;
+  background-color: #ffffff;
+  /* width: 12rem; */
+}
+
+.list-buttons>Button {
+  background-color: #ffffff;
+  text-align: center;
+  font: normal;
+  color: black;
+  width: 5rem;
+  font-size: 1rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+}
+
+.nav-button>Button {
+  color: black;
+  background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .list-listcontainer {
+    width: calc(100vw - 4rem);
+    margin: 1rem 2rem;
+  }
+
+  .list-listgroup {
+    min-width: 25rem;
+  }
+
+  .list-search {
+    min-width: 25rem;
+  }
+
+  .list-listitem {
+    gap: 0.3rem;
+    justify-content: center;
+  }
+
+  .list-node {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .list-listitem>div {
+    font-size: 0.9rem;
+    padding: 1rem 0.8rem;
+
+  }
+}

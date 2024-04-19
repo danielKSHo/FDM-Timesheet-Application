@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Sharp Grotesk Bold 15 Regular";
+    src: url("https://db.onlinewebfonts.com/t/ab3dcceef8a804c557270109ba875fb9.eot");
+    src: url("https://db.onlinewebfonts.com/t/ab3dcceef8a804c557270109ba875fb9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ab3dcceef8a804c557270109ba875fb9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ab3dcceef8a804c557270109ba875fb9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ab3dcceef8a804c557270109ba875fb9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ab3dcceef8a804c557270109ba875fb9.svg#Sharp Grotesk Bold 15 Regular")format("svg");
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-color: #FDFDFF;
+}
+
+.purple-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    height: 80%;
+    background-color: #9999ff;
+    box-shadow: 1rem 0rem 2rem #ffffff40 inset, 1rem 2rem 4rem #00000040;
+}
+
+.s1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+    gap: 2.5vh;
+}
+
+.fdm-logo {
+    padding-top: 6%;
+    width: 13vw;
+    fill: #FDFDFF;
+}
+
+.welcome-heading {
+    padding-top: 10%;
+    font-family: 'Sharp Grotesk Bold 15 Regular';
+    font: normal;
+    color: #FDFDFF;
+    font-size: 6vw;
+}
+
+.s2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1.3vh;
+    padding: 1vh 4vw;
+    background-color: #ffffffb2;
+}
+
+.login-heading {
+    font-family:'Sharp Grotesk Bold 15 Regular';
+    color: black;
+    font-size: 5vw;
+}
+
+.login-label {
+    font-family:'Readex_Pro-Regular', Helvetica;
+    font: normal;
+    color: black;
+    width: fit-content;
+    font-size: 2.5vw;
+}
+
+.login-input {
+    position: relative;
+    width: 22vw;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 2vw;
+    background-color: white;
+}
+
+.login-message {
+    font-size: 1.3vw;
+}
+
+.login-button {
+    width: 23vw;
+    height: 5vh;
+}
+
+.login-error {
+    color: red;
+    font-size: 1.3vw;
+}
+
+.colour-dodge {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    top: 16rem;
+    left: 42rem;
+    background-color: #6488d7;
+    rotate: 28.10deg;
+    filter:blur(6rem);
+    mix-blend-mode: color-dodge;
+}
+
+.colour-dodge2 {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    top: 36rem;
+    left: 6rem;
+    background-color: #6488d7;
+    filter:blur(9rem);
+    mix-blend-mode: color-dodge;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .purple-box {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .s1 {
+        justify-content: center;
+        padding-left: 4vw;
+        gap: 0vh;
+    }
+
+    .fdm-logo {
+        padding-top: 5%;
+        width: 20vw;
+    }
+
+    .welcome-heading {
+        font-size: 7vw;
+        padding-top: 5%;
+    }
+
+    .s2 {
+        gap: 1.5vh;
+    }
+
+    .login-heading {
+        font-size: 6vw;
+    }
+
+    .login-label {
+        font-size: 3.5vw;
+    }
+
+    .login-input {
+        width: 42vw;
+        height: 4vh;
+        font-size: 3vw;
+    }
+
+    .login-message {
+        font-size: 2vw;
+    }
+
+    .login-error {
+        font-size: 2vw;
+    }
+
+    .colour-dodge {
+        width: 8rem;
+        height: 8rem;
+        top: 8rem;
+        left: 21rem;
+    
+    }
+    
+    .colour-dodge2 {
+        width: 8rem;
+        height: 8rem;
+        top: 18rem;
+        left: 3rem;
+    }
+
+
+}

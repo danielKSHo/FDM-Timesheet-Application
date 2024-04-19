@@ -1,0 +1,351 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.timesheet-tile {
+    grid-column: 1 / span 2;
+    display: grid;
+    width: 210rem;
+    height: 104rem;
+    top: -8rem;
+    left: -113rem;
+    width: 1394px;
+    height: 800px;
+    flex-shrink: 0;
+    background: rgba(253, 253, 255, 0.70);
+    box-shadow: 15px 35px 56px 0px rgba(0, 0, 0, 0.25);
+}
+
+.timesheet-info {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+  }
+  
+.timesheet-info > div {
+    background-color: #f1f1f1;
+    width: 20rem;
+    margin: 1rem;
+    text-align: center;
+    font: normal;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Readex_Pro-Regular', Helvetica;
+}   
+
+.timesheet-dates {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+  }
+  
+.timesheet-dates > div {
+    background-color: #f1f1f1;
+    width: 9rem;
+    margin: 1rem;
+    text-align: center;
+    font: normal;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Readex_Pro-Regular', Helvetica;
+    /* tracking-[0] leading-[normal] */
+}  
+
+.timesheet-days {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+  }
+  
+.timesheet-days > div {
+    background-color: #83CBFF;
+    width: 9rem;
+    margin: 1rem;
+    text-align: center;
+    font: normal;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Readex_Pro-Regular', Helvetica;
+
+    /* tracking-[0] leading-[normal] */
+}   
+.timesheet-days > .blank {
+    background-color: #f1f1f1;
+}
+
+.timesheet-times {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+  }
+  
+.timesheet-times > div {
+    background-color: #f1f1f1;
+    width: 9rem;
+    margin: 1rem;
+    text-align: center;
+    font: normal;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Readex_Pro-Regular', Helvetica;
+    /* tracking-[0] leading-[normal] */
+} 
+
+/* className="relative w-[140px] h-[48px] top-[731px] left-[1029px] bg-[url(/rectangle-37.svg)] bg-[100%_100%]" */
+
+.timesheet-buttons {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+}
+
+.timesheet-buttons > Button {
+  background-color: #f1f1f1;
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
+  text-align: center;
+  font: normal;
+  color: black;
+  font-size: 1rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+  /* tracking-[0] leading-[normal] */
+} 
+
+
+
+
+
+
+
+
+.logHours-tile {
+  grid-column: 3 / span 1;
+  display: grid;
+  width: 21rem;
+  height: 104rem;
+  top: -8rem;
+  left: -113rem;
+  width: 13px;
+  height: 800px;
+  flex-shrink: 0;
+  background: rgba(253, 253, 255, 0.70);
+  box-shadow: 15px 35px 56px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logHours-info {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+}
+
+.logHours-info > div {
+  background-color: #f1f1f1;
+  width: 20rem;
+  margin: 1rem;
+  text-align: center;
+  font: normal;
+  color: black;
+  font-size: 2rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+  /* tracking-[0] leading-[normal] */
+}   
+
+.logHours-node {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;   
+}
+
+.logHours-time {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+}
+
+.logHours-time > .logHours-node {
+  background-color: #f1f1f1;
+  width: 9rem;
+  margin: 1rem;
+  text-align: center;
+  font: normal;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+  /* tracking-[0] leading-[normal] */
+}  
+
+.logHours-time > input {
+  background-color: #ffffff;
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 2rem
+}
+
+.logHours-tags {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+}
+
+.logHours-tags > .logHours-node {
+  width: 9rem;
+  margin: 1rem;
+  text-align: center;
+  font: normal;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+  /* tracking-[0] leading-[normal] */
+}   
+
+.logHours-comment {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+
+.logHours-comment > div {
+  background-color: #f1f1f1;
+  width: 10rem;
+  margin: 1rem;
+  text-align: center;
+  font: normal;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+  /* tracking-[0] leading-[normal] */
+} 
+
+.logHours-comment > textarea {
+  width: 30rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: left;
+  font: normal;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Readex_Pro-Regular', Helvetica;
+  overflow: auto;
+} 
+
+
+
+/* className="relative w-[140px] h-[48px] top-[731px] left-[1029px] bg-[url(/rectangle-37.svg)] bg-[100%_100%]" */
+
+.logHours-buttons {
+display: flex;
+flex-direction: row;
+background-color: #f1f1f1;
+}
+
+.logHours-buttons > Button {
+background-color: #f1f1f1;
+width: 12rem;
+height: 3rem;
+margin: 1rem;
+text-align: center;
+font: normal;
+color: black;
+font-size: 1rem;
+font-family: 'Readex_Pro-Regular', Helvetica;
+/* tracking-[0] leading-[normal] */
+} 
+
+
+/* className="relative w-[140px] h-[31px] top-[99px] left-[85px] bg-[#83cbffb2]">
+<div className="relative w-[65px] top-[4px] left-[37px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[16px] tracking-[0] leading-[normal]">
+ <div className="relative w-[140px] h-[31px] top-[99px] left-[242px] bg-[#83cbffb2]">
+          <div className="relative w-[67px] top-[4px] left-[38px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[16px] tracking-[0] leading-[normal]">
+            Tuesday
+          </div>
+        </div>
+        <div className="relative w-[140px] h-[31px] top-[99px] left-[399px] bg-[#83cbffb2]">
+          <div className="relative w-[95px] top-[4px] left-[24px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[16px] tracking-[0] leading-[normal]">
+            Wednesday
+          </div>
+        </div>
+        <div className="relative w-[141px] h-[31px] top-[99px] left-[556px] bg-[#83cbffb2]">
+          <div className="relative w-[76px] top-[4px] left-[33px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[16px] tracking-[0] leading-[normal]">
+            Thursday
+          </div>
+        </div>
+        <div className="relative w-[140px] h-[31px] top-[99px] left-[714px] bg-[#83cbffb2]">
+          <div className="relative w-[52px] top-[4px] left-[44px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[16px] tracking-[0] leading-[normal]">
+            Friday
+          </div>
+        </div>
+        <div className="relative w-[140px] h-[31px] top-[99px] left-[871px] bg-[#83cbffb2]">
+          <div className="relative w-[73px] top-[4px] left-[34px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[16px] tracking-[0] leading-[normal]">
+            Saturday
+          </div> 
+                  <div className="relative w-[140px] h-[31px] top-[99px] left-[1029px] bg-[#83cbffb2]">
+          <div className="relative w-[61px] top-[4px] left-[39px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[16px] tracking-[0] leading-[normal]">
+            Sunday
+          </div>
+
+
+
+
+                  <div className="relative w-[65px] top-[71px] left-[160px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          11/03/24
+        </div>
+        <div className="w-[64px] left-[319px] relative top-[71px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          12/03/24
+        </div>
+        <div className="w-[65px] left-[476px] relative top-[71px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          13/03/24
+        </div>
+        <div className="w-[66px] left-[633px] relative top-[71px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          14/03/24
+        </div>
+        <div className="w-[65px] left-[790px] relative top-[71px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          15/03/24
+        </div>
+        <div className="w-[65px] left-[947px] relative top-[71px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          16/03/24
+        </div>
+        <div className="w-[64px] left-[1104px] relative top-[71px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          17/03/24
+        </div>
+
+
+                <div className="w-[39px] top-[134px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          08:00
+        </div>
+        <div className="w-[39px] top-[191px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          09:00
+        </div>
+        <div className="w-[38px] top-[248px] whitespace-nowrap relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          10:00
+        </div>
+        <div className="w-[37px] top-[306px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          11:00
+        </div>
+        <div className="w-[37px] top-[363px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          12:00
+        </div>
+        <div className="w-[37px] top-[420px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          13:00
+        </div>
+        <div className="w-[38px] top-[478px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          14:00
+        </div>
+        <div className="w-[38px] top-[535px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          15:00
+        </div>
+        <div className="w-[37px] top-[592px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          16:00
+        </div>
+        <div className="w-[37px] top-[650px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          17:00
+        </div>
+        <div className="w-[38px] top-[707px] relative left-[31px] [font-family:'Readex_Pro-Regular',Helvetica] font-normal text-black text-[14px] tracking-[0] leading-[normal]">
+          18:00
+        </div>
+          */
